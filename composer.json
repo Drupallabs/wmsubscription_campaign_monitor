@@ -1,0 +1,28 @@
+{
+    "name": "wieni/wmsubscription_campaign_monitor",
+    "type": "drupal-module",
+    "description": "Provides a Campaign Monitor implementation for the wmsubscription Drupal 8 module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wieni",
+            "email": "info@wieni.be"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "campaignmonitor/createsend-php": "^6.0",
+        "drupal/core": "^8 || ^9",
+        "wieni/wmsubscription": "^1.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.0",
+        "wieni/wmcodestyle": "^1.0"
+    },
+    "scripts": {
+        "coding-standards": [
+            "@composer normalize",
+            "php-cs-fixer fix --config=.php_cs.php"
+        ]
+    }
+}

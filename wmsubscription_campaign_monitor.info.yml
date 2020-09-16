@@ -1,0 +1,8 @@
+name: Wieni Subscription - Campaign Monitor
+type: module
+description: Provides a Campaign Monitor implementation for the wmsubscription module
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Wieni
+dependencies:
+    - wmsubscription
